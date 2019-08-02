@@ -40,6 +40,9 @@ h3.h3error {
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+html.blue {
+    background: #00f;
+}
 html.orange {
     background: #f80;
 }
