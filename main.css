@@ -1,0 +1,63 @@
+/* a {
+
+    color: #808080;
+} */
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+a:active {
+    background-color: white;
+    color: red;
+}
+
+h1.h1error {
+    color: #fff;
+    font-family: "Share Tech Mono";
+    font-size: 90px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 72px;
+    margin-bottom: -48px;
+}
+h2.h2error {
+    color: #fff;
+    font-family: "Share Tech Mono";
+    font-size: 60px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h3.h3error {
+    color: #fff;
+    font-family: "Share Tech Mono";
+    font-size: 36px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+html.orange {
+    background: #f80;
+}
+html.red {
+    background: #f00;
+}
+html.smptebars {
+    background: linear-gradient(
+        90deg, #aaa, #aaa 14.28%,
+        #aa0 14.28%, #aa0 28.57%,
+        #0aa 28.57%, #0aa 42.85%,
+        #0a0 42.85%, #0a0 57.14%,
+        #a0a 57.14%, #a0a 71.43%,
+        #a00 71.43%, #a00 85.71%,
+        #00a 85.71%, #00a 120%
+        ), linear-gradient(0deg, #000, #000 100%);
+    /* height: 75%, 25%; */
+    background-position: top, bottom;
+    /* background-repeat: repeat, repeat; */
+    background-size: 100% 75%, 100% 25%;
+  }
